@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: auto;
-    background-color: blue;
+    /* background-color: blue; */
     display: block;
     justify-content: center;
     align-items: center;
@@ -17,21 +17,26 @@
 
 header{
     width: 100%;
-    height: 300px;
-    background-color: aqua;
+    height: auto;
+    /* background-color: aqua; */
 }
-
+.banner img{
+  width: 100%;
+  height: 400px;
+  
+}
 nav{
-    height: 5 0px;
+    height:55px;
     list-style: none;
-    background-color: brown;
+    background-color: #53228b;
     overflow: hidden;
     text-align: center;
+  
 }
 
 li{
     display: inline-block;
-    padding-top: 6px;
+    padding-top: 5px;
 }
 
 li a {
@@ -45,7 +50,7 @@ li a {
   li a:hover {
     transition: 1s;
     background-color: #2aa7a7;
-    border-radius: 5px;
+    border-radius: 3px;
   }
 
   .conteudo{
@@ -68,10 +73,32 @@ li a {
 
   .dicas{
     width:100%;
-    height: 300px;
-    background-color: red;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
     
    
+}
+
+.dica1{
+  /* background-color: aquamarine; */
+  height: 380px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left:10px;
+  
+}
+
+.dica1 img{
+  width: 100%;
+  height: 200px;
+  padding: 2px;
+  border-radius: 15px;
+  background-color: #53228b;
+}
+.textodicas{
+ padding: 5px;
+
 }
 .oqueprocura{
     width: 500px;
@@ -79,4 +106,9 @@ li a {
     background-color:green;
     margin-top: 10px;
     margin-right: 5px;
+}
+
+footer{
+  background-color: black;
+  height: 50px;
 }
