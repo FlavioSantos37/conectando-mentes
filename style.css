@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    color: #777;
 }
 
 .container{
@@ -83,7 +85,7 @@ li a {
 .dica1{
   /* background-color: aquamarine; */
   height: 380px;
-  width: 250px;
+  width: 300px;
   margin-top: 10px;
   margin-left:10px;
   
@@ -98,17 +100,51 @@ li a {
 }
 .textodicas{
  padding: 5px;
+ 
 
+}
+h3{
+  color: #53228b;
 }
 .oqueprocura{
     width: 500px;
     height: 805px;
-    background-color:green;
+    background-color:rgb(235, 241, 235);
     margin-top: 10px;
     margin-right: 5px;
+    border-radius: 10px;
+    padding-left: 5px;
 }
-
+.oqueprocura1{
+  display: flex;
+  
+    width: 100%;
+    height: 150px;
+    /* background-color: #777; */
+}
+.textooqueprocura{
+  width: 160px;
+  height: 150px;
+ 
+  font-size: 15px;
+ /* background-color: red; */
+ padding: 12px 10px 10px 5px;
+}
+.oqueprocuraimg{
+  width: 100px;
+  height:92px;
+  background-color: #53228b;
+  border-radius: 10px;
+  margin-top: 15px;
+ 
+}
+.oqueprocuraimg img{
+  width: 100%;
+  height:92px;
+  border-radius: 5px;
+}
 footer{
   background-color: black;
   height: 50px;
 }
+
