@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
@@ -16,18 +16,17 @@
     
     
 }
-body{
-  
-  height: auto;
-}
+
 header{
     width: 100%;
     height: auto;
     /* background-color: aqua; */
+    
 }
+
 .banner img{
   width: 100%;
-  height: 400px;
+  height: 400px;;
   
 }
 nav{
@@ -36,7 +35,7 @@ nav{
     background-color: #53228b;
     overflow: hidden;
     text-align: center;
-  
+    margin-top: -10px;
 }
 
 li{
@@ -48,7 +47,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
   }
 
@@ -56,6 +55,7 @@ li a {
     transition: 1s;
     background-color: #2aa7a7;
     border-radius: 3px;
+    
   }
 
   .caixa1{
@@ -87,7 +87,7 @@ li a {
   .dicas{
     width:77%;
     height: 400px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     margin-top: -305px;
     
@@ -101,19 +101,20 @@ li a {
 
 .dica1{
   /* background-color: aquamarine; */
-  height: 380px;
+  height: 385px;
   width: 300px;
   margin-top: 10px;
   margin-left:10px;
-  
+  text-align: center;
 }
 
 .dica1 img{
-  width: 100%;
+  width: 98%;
   height: 200px;
   padding: 2px;
   border-radius: 15px;
   background-color: #53228b;
+  text-align: center;
 }
 .textodicas{
  padding: 5px;
@@ -124,7 +125,7 @@ h3{
   color: #53228b;
 }
 .oqueprocura{
-    width: 375px;
+    width: 315px;
     height: 805px;
     background-color:rgb(235, 241, 235);
     margin-top: 1px;
@@ -167,7 +168,95 @@ footer{
   background-color: black;
   height: 50px;
 }
-@media screen ( max-width:999px){
-  con
+@media screen and ( max-width:999px){
+  .container{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+  .banner{
+    display: none;
+    
+  
+  }
+ nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+ 
+  z-index: 1;
+ }
+  ul{
+    display: none;
+   }
+.caixa1{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.conteudo{
+  height: auto;
+  
+}
+.aconteceu{
+  height: 400px;
+  
+}
+h2{
+  padding-top: 5px;
+}
+.oqueprocura{
+  width: 100%;
+  height: auto;
+  display:contents;
+ 
+ }
+   .oqueprocura1 {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+    /* background-color: red; */
+    
+    
+   }
+   .oqueprocuraimg{
+    display: contents;
+
+   }
+
+   .textooqueprocura{
+    /* background-color: green; */
+    width: 100%;
+    text-align: center;
+   }
+  
+
+  .dicas {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 310px;
+    
+    
+  }
+  .dica1{
+    display: contents;
+    
+  
+    
+    
+    
+  }
+  footer{
+    position: relative;
+    top:500px;
+    display: block;
+    height:80px;
+  }
+ 
 }
 
