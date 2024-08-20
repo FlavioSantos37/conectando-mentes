@@ -144,7 +144,7 @@ h3{
     /* background-color: #777; */
 }
 .textooqueprocura{
-  width: 160px;
+  width: 90%;
   height: 150px;
  
   font-size: 15px;
@@ -239,7 +239,7 @@ h2{
    .textooqueprocura{
     /* background-color: green; */
     width: 100%;
-    text-align: center;
+  
    }
   
 
