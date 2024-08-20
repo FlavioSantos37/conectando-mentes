@@ -59,7 +59,7 @@ li a {
   }
 
   .caixa1{
-    width: 80%;
+    width: 77%;
     background-color: green;
     display: flex;
     justify-content: center;
@@ -125,14 +125,14 @@ h3{
   color: #53228b;
 }
 .oqueprocura{
-    width: 315px;
+    width: 355px;
     height: 805px;
     background-color:rgb(235, 241, 235);
     margin-top: 1px;
     margin-right: 5px;
     border-radius: 10px;
     padding-left: 5px;
-    margin-left: 80%;
+    margin-left: 77.4%;
     margin-top:-500px;
  
 }
@@ -210,22 +210,31 @@ h2{
 .oqueprocura{
   width: 100%;
   height: auto;
-  display:contents;
- 
+  display:block;
+  margin: auto;
+  
  }
    .oqueprocura1 {
     width: 100%;
     height: auto;
     display: block;
+    margin: auto;
+    padding-top: 15px;
+    
    
     /* background-color: red; */
     
     
    }
-   .oqueprocuraimg{
-    display: contents;
+   
+   .oqueprocuraimg {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 85%;
 
    }
+
 
    .textooqueprocura{
     /* background-color: green; */
@@ -236,15 +245,17 @@ h2{
 
   .dicas {
     display: block;
+    margin: auto;
     height: auto;
     width: 100%;
     position: relative;
-    top: 310px;
-    
+    top: 15px;
+    /* background-color: #2aa7a7; */
     
   }
   .dica1{
-    display: contents;
+    display: block;
+    margin: auto;
     
   
     
