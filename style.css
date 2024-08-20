@@ -60,7 +60,7 @@ li a {
 
   .caixa1{
     width: 77%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     justify-content: center;
   }
@@ -121,48 +121,65 @@ li a {
  
 
 }
+.noticias{
+  width: 15%;
+  position: relative;
+  height: 50px;
+  top:-340px;
+  left:5px;
+  padding-left: 5px;
+  background-color: #53228b;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
 h3{
   color: #53228b;
 }
 .oqueprocura{
-    width: 355px;
-    height: 805px;
-    background-color:rgb(235, 241, 235);
+    width: 422px;
+    height: 850px;
+    /* background-color:rgb(94, 43, 43); */
     margin-top: 1px;
     margin-right: 5px;
     border-radius: 10px;
     padding-left: 5px;
-    margin-left: 77.4%;
+    margin-left: 77%;
     margin-top:-500px;
  
 }
 .oqueprocura1{
-  display: flex;
-  
+   display: flex;
+    border-radius: 10px;  
     width: 100%;
     height: 150px;
-    /* background-color: #777; */
+    background-color:#2aa7a7;
+    
+    
 }
 .textooqueprocura{
-  width: 90%;
+  width: 100%;
   height: 150px;
- 
+  color: white;
   font-size: 15px;
- /* background-color: red; */
- padding: 12px 10px 10px 5px;
+  /* background-color: red; */
+  padding: 12px 5px 10px 8px;
 }
 .oqueprocuraimg{
-  width: 150px;
-  height:140px;
+  width: 155px;
+  height:139px;
   background-color: #53228b;
-  border-radius: 10px;
-  margin-top: 15px;
+  border-radius: 11px;
+  padding:  1px;
+  margin-top: 6px;
+  margin-left: 5px;
  
 }
 .oqueprocuraimg img{
   width: 100%;
-  height:130px;
-  border-radius: 5px;
+  height:137px;
+  border-radius: 9px;
 }
 footer{
   background-color: black;
@@ -204,26 +221,41 @@ footer{
   height: 400px;
   
 }
+
+.noticias{
+  width: 50%;
+  position: relative;
+  height: 50px;
+  top:1px;
+  left:5px;
+  padding-left: 5px;
+  background-color: #53228b;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+
+}
 h2{
   padding-top: 5px;
 }
 .oqueprocura{
-  width: 100%;
+  width: 99%;
   height: auto;
   display:block;
-  margin: auto;
+  padding-left: 0px;
+  margin:auto;
   
+  /* background-color: #53228b; */
  }
    .oqueprocura1 {
     width: 100%;
     height: auto;
     display: block;
-    margin: auto;
-    padding-top: 15px;
     
-   
-    /* background-color: red; */
-    
+    padding-top: 10px;
+    background-color: #2aa7a7;
+     
     
    }
    
@@ -232,7 +264,11 @@ h2{
     margin: auto;
     height: auto;
     width: 85%;
-
+    
+   }
+   .oqueprocuraimg img{
+    height: 305px;
+    
    }
 
 
