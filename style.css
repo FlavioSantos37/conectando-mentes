@@ -31,6 +31,7 @@ header{
   
 }
 nav{
+    width: 100%;
     height:55px;
     list-style: none;
     background-color: #53228b;
@@ -86,7 +87,7 @@ li a {
   }
 
   .dicas{
-    width:77%;
+    width:67%;
     height: 400px;
     /* background-color: red; */
     display: flex;
@@ -126,7 +127,7 @@ li a {
 .noticias{
   width: 15%;
   position: relative;
-  height: 50px;
+  height: 30px;
   top:-340px;
   left:5px;
   padding-left: 5px;
@@ -136,6 +137,7 @@ li a {
   border-radius: 5px;
   text-align: center;
   font-style: italic;
+  font-size: 20px;
 }
 h3{
   color: #53228b;
@@ -151,44 +153,48 @@ h3{
     margin-right: 5px;
     border-radius: 10px;
     padding-left: 5px;
-    margin-left: 77%;
+    margin-left: 72%;
     margin-top:-500px;
  
 }
 .oqueprocura1{
-   display: flex;
+    display: flex;
     border-radius: 10px;  
-    width: 100%;
-    height: 150px;
+    width: 410px;
+    height: 149px;
     background-color:#2aa7a7;
     cursor: pointer;
-        
+    
+   
     
     
 }
 .textooqueprocura{
-  width: 100%;
+  width: 422px;
   height: 150px;
   color: white;
   font-size: 15px;
   /* background-color: red; */
-  padding: 12px 5px 10px 8px;
+  padding: 2px 5px 10px 2px;
+  margin-left: 11px;
 }
 .oqueprocuraimg{
-  width: 155px;
-  height:140px;
+  width: 150px;
+  height:149px;
   
   /* background-color: #53228b; */
-  border-radius: 15px;
-  padding:  1px;
-  margin-top: 6px;
-  margin-left: 5px;
+  border-radius: 10px;
+  margin:0px 0px 0px 0px;
+  
+  
+
  
 }
 .oqueprocuraimg img{
   width: 100%;
-  height:137px;
-  border-radius: 9px;
+  height:148px;
+  border-radius: 10px;
+  
 }
 .oqueprocura1:hover{
   opacity: 0.8;
@@ -211,8 +217,10 @@ img:hover {
   height: 600px;
   background-color: white;
   display: inline-block;
+  margin-top: 35px;
   margin-bottom: 15px;
-
+  border-radius: 20px;
+  
 }
 
 .titulocurso{
@@ -224,9 +232,28 @@ img:hover {
   border-radius: 5px;
   text-align: center;
   font-style: italic;
+ 
 }
-
-
+.img-curso{
+  height: 200px;
+  /* background-color: #2aa7a7; */
+  border-radius: 20px 20px 0px 0px;
+   margin: -0px;
+ }
+.img-curso img{
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+  
+}
+.faixa{
+  width: 100%;
+  height: 11px;
+  background-color: #2aa7a7;
+  margin: -1px 1px 0px 0px;
+ 
+}
 footer{
   display:flex;
   background-color: black;
