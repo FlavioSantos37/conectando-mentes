@@ -207,7 +207,7 @@ img:hover {
 .cursos{
   width: 100%;
   height: auto;
-  background-color: rgb(33, 115, 182);
+  /* background-color: rgb(33, 115, 182); */
   text-align: center; 
   display:block;
 }
@@ -215,11 +215,12 @@ img:hover {
 .curso{
   width: 19%;
   height: 600px;
-  background-color: white;
+  background-color:#777;
   display: inline-block;
   margin-top: 35px;
   margin-bottom: 15px;
   border-radius: 20px;
+  color: white;
   
 }
 
@@ -228,7 +229,7 @@ img:hover {
   height: 50px;
   
   background-color: #53228b;
-  color: white;
+  color:rgb(255, 255, 255);
   border-radius: 5px;
   text-align: center;
   font-style: italic;
