@@ -208,19 +208,19 @@ img:hover {
   width: 100%;
   height: auto;
   /* background-color: rgb(33, 115, 182); */
-  text-align: center; 
+  text-align: center;
   display:block;
 }
 
 .curso{
   width: 19%;
-  height: 600px;
-  background-color:#777;
+  height: 350px;
+  background-color:rgb(223, 220, 220);
   display: inline-block;
   margin-top: 35px;
   margin-bottom: 15px;
-  border-radius: 20px;
-  color: white;
+  border-radius: 6px;
+  
   
 }
 
@@ -235,17 +235,32 @@ img:hover {
   font-style: italic;
  
 }
+.presencial{
+  color:#53228b;
+  padding-top: 15px ;
+  padding-left: 7px;
+  
+}
+
+.cursos2{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.22;
+  color: #454f63;
+  text-align: left;
+  padding-left: 7px;
+}
 .img-curso{
   height: 200px;
   /* background-color: #2aa7a7; */
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
    margin: -0px;
  }
 .img-curso img{
   width: 100%;
   height: 200px;
   margin: auto;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   
 }
 .faixa{
@@ -413,6 +428,7 @@ footer{
     display: block;
     width: 99%;
     margin: auto;
+    
   }
   
   
