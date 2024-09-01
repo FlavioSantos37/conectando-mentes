@@ -7,6 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="javascript.js"> </script>
     <title>Conectando Mentes</title>
 </head>
 <body>
@@ -29,7 +34,66 @@
         <div class="caixa1"> 
             <div class="conteudo">    
                 <section class="aconteceu">
-                    <p>Aconteceu</p>
+                    <div id="carousel" class="carousel slide"           data-ride="carousel">
+
+                        <!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                          </ol>
+                        
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <h5 class="contador"> 1 / 4 <h5>
+                              <img class="imgca" src="./img/tecnologia.png">
+                               <div class="titulo">
+                                <h2> Imagem 1 </h2>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                              <h5 class="contador"> 2 / 4 <h5>
+                              <img  class="imgca" src="./img/marketing.png">
+                              <div class="titulo">
+                              <h2> Imagem 2 </h2>
+                              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                              <h5 class="contador"> 3 / 4 <h5>
+                              <img class="imgca" src="./img/gatronomia.png">
+                              <div class="titulo">
+                              <h2> Imagem 3 </h2>
+                              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            </div>
+                            </div>
+                          
+                        
+                          <div class="carousel-item">
+                            <h5 class="contador"> 4 / 4 <h5>
+                              <img class="imgca" src="./img/marketing.png">
+                              <div class="titulo">
+                              <h2> Imagem 4 </h2>
+                              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            </div>
+                            </div>
+                        
+                          </div> <!-- Fecha elementos dentro do carrossel -->
+                          
+                        <!--   Controladores | Botões -->
+                          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"> Previous </span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"> Next </span>
+                          </a> 
+                        </div> <!-- Fim do carrossel -->
                 </section>
                    
                 
