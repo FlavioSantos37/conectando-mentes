@@ -29,9 +29,9 @@ header{
     
 }
 
-.banner img{
+.bn {
   width: 100%;
-  height: 400px;;
+  height: 400px;
   
 }
 nav{
@@ -321,7 +321,7 @@ span {
 
 /*Texto das imagens*/
 .titulo {
-  width: 70%;
+  width: 50%;
   height: auto;
   padding: 3%;
   background-color: rgba(255,255,255, .8);
@@ -444,7 +444,7 @@ h3{
     display: flex;
     border-radius: 10px;  
     
-    height: 149px;
+    height: 154px;
     background-color:#2aa7a7;
     cursor: pointer;
     
@@ -467,7 +467,7 @@ h3{
   
   /* background-color: #53228b; */
   border-radius: 10px;
-  margin:0px 0px 0px 0px;
+  margin: 2px 0px 0px 2px;
   
   
 
@@ -563,11 +563,36 @@ img:hover {
  
 }
 footer{
-  display:flex;
-  background-color: black;
-  height: 50px;
-  margin-top: 42px;
-}
+  position: relative;
+   
+    display: block;
+  
+    background-color: #333;
+	  color: #fff;
+	  padding: 20px;
+	  text-align: center;
+	  margin-top: 50px;
+  }
+    .rodape {
+      list-style: none;
+      padding:0px;
+      margin: 0px;
+  
+    }
+    
+    .rp {
+      display: inline-block;
+      margin: 0px 10px;
+    }
+    
+    .l {
+      color: #fff;
+      text-decoration: none;
+      height: 500px;
+    }
+  
+    
+  
 @media screen and ( max-width:999px){
   .container{
     width: 100%;
@@ -739,14 +764,8 @@ footer{
 
     
   }
+}  
   
-  
-  footer{
-    position: relative;
-    top:20px;
-    display: block;
-    height:80px;
-  }
- 
-}
+
+
 
