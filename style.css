@@ -29,6 +29,12 @@ header{
     
 }
 
+.banner{
+  width: 100%;
+  background-color: #333333;
+  height: auto;
+}
+
 .bn {
   width: 100%;
   height: 400px;
@@ -412,7 +418,7 @@ span {
   position: relative;
   height: 50px;
   top:-310px;
-  
+  text-align: center;
   padding-left:20px;
   padding-top:8px;
   background-color: #53228b;
@@ -446,7 +452,7 @@ h3{
     border-radius: 10px;  
     
     height: 154px;
-    background-color:#2aa7a7;
+    background-color:#6931aa;
     cursor: pointer;
     
    
@@ -484,10 +490,7 @@ h3{
   opacity: 0.8;
   transition: 1.1s;
 }
-img:hover {
-  opacity: 0.8;
-  transition: 1.1s;
-}
+
 .cursos{
   width: 100%;
   height: auto;
@@ -574,23 +577,25 @@ footer{
 	  text-align: center;
 	  margin-top: 50px;
   }
-    .rodape {
-      list-style: none;
-      padding:0px;
-      margin: 0px;
+  .rodape {
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+
+  }
   
-    }
-    
-    .rp {
-      display: inline-block;
-      margin: 0px 10px;
-    }
-    
-    .l {
-      color: #fff;
-      text-decoration: none;
-      height: 500px;
-    }
+  .ro {
+    display: inline-block;
+    margin: 0px 10px;
+    background-color: #333;
+  }
+  
+  .li {
+    color: #fff;
+    text-decoration: none;
+    height: 500px;
+    background-color: #2aa7a7;
+  }
   
     
   
@@ -606,6 +611,8 @@ footer{
     
   
   }
+
+  
 
   .imgca {
     width: 100%;
@@ -713,6 +720,11 @@ footer{
     
    }
 
+   .oqueprocura1:hover{
+    opacity: 5.0;
+    transition: 0;
+  }
+
 
    .textooqueprocura{
     /* background-color: green; */
@@ -771,6 +783,9 @@ footer{
     margin: 15px auto 15px auto;
 
     
+  }
+  .ro{
+    display: none;
   }
 }  
   
