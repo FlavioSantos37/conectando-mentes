@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
@@ -329,10 +329,11 @@ span {
   color: rgba(70,70,70,1);
   position: absolute;
   bottom: 20%;
+  display: none;
 }
 
 /* Paragrafo de texto não aparece em tela menor que 720px */
-@media (max-width: 720px) {
+@media (max-width: 999px) {
   .titulo {
     width: 100%;
     padding: 1%;
@@ -346,7 +347,8 @@ span {
 }
 
 .contador {
-  width: 7%;
+  
+  width: 100%;
   height: auto;
   padding: .3%;
   position: absolute;
@@ -355,6 +357,7 @@ span {
   left: 0;
   color: rgba(255,255,255,1);
   text-shadow: 1px 2px 3px rgba(0,0,0,1);
+  
 }
 
 /* Contador não aparece em tela menor que 720px */
@@ -367,22 +370,21 @@ span {
   }
 }
 
-
-
   .dicas{
     width:67%;
     height: 400px;
     /* background-color: red; */
     display: flex;
     margin-top: -305px;
-    
+    text-align: center;
+  } 
     
     
     
     
     
    
-}
+
 
 .dica1{
   /* background-color: aquamarine; */
@@ -633,13 +635,15 @@ footer{
  .conteudo{
   width: 100%;
   margin: auto;
- 
+  
+  
   /* background-color: #d3450c; */
   
  }
  .aconteceu{
-  width: 95%;
+  width: 100%;
   margin: auto;
+
   
  }
 
@@ -672,22 +676,23 @@ footer{
 
 
  .oqueprocura{
-  width: 99%;
-  height: auto;
   display:block;
-  padding-left: 0px;
-  margin:auto;
-  
+   margin:auto;
+   padding: 0px 5px 0px 5px;
+   height: auto;
+   width: 100%;
+   position: relative; 
+   top: 15px;
   
   /* background-color: #53228b; */
  }
   .oqueprocura1 {
-    width: 95%;
-    height: auto;
     display: block;
-    margin-bottom: 5px;
-    padding-top: 10px;
-    background-color: #f4f4f5;
+    margin: auto;
+    height: auto;
+    background-color: #ffff;
+
+   
      
     
    }
