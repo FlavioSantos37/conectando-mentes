@@ -356,7 +356,7 @@ span {
 }
 
 .contador {
-  
+  display: none;
   width: 100%;
   height: auto;
   padding: .3%;
